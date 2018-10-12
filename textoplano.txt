@@ -1,0 +1,68 @@
+Usando "document.getElementById"
+
+    1.Defina la variable container
+    2.Obtenga el elemento HTML con id = c1 utilizando la propiedad getElementById y almacenelo en la variable container
+
+    ¿Qué es lo que contiene la variable container?
+
+    -->ESte contiene al elemento que se le ha enviado, en este caso el elemento del container con id= c1
+
+    3.Modifique el valor de propiedad innerText y guarder la cadena de texto "¡Hola Mundo!"
+
+    ¿Qué visualiza en el navegador?
+
+    -->/*Se coloca sobre el elemento con id c1 el texto escrito: 'HOla MUndo' */
+
+    4. Utilizando la variable container y su propiedad style.backgroundColor modifique el color del elemnto por el siguiente #000000.
+    5. Modifique el color del texto del elemento por el siguiente: #1cb723
+    6. Cambie el ancho y alto del elemento a 200px, modificando las propiedades style.width y style.height
+    7. Haciendo uso de la propiedad innerHTML agregue lo siguiente: <input type=”text” placeholder=’escriba su texto’>
+
+    ¿Qué es lo que se muestra en pantalla?
+
+    -->En panatalla se muestra el como el elemento con el id=c1 es mas grande que los demas elementos y ademas contiene una caja de texto dentro de el
+
+    ¿Cuál es la diferencia entre las propiedades innerHtml e innerText?
+
+    -->Innerhtml: el contenido que va a gregar lo obtiene en formato html
+    innertext: el contenido esta referido a texto, lo ingresado sera mostrado como tal se escribio
+
+Usando "document.getElementsByClassName"
+
+    1. Obtenga todos los elementos que tengan el atributo class="c2" y alamcenelos en la variable containers.
+
+    ¿Qué almacena containers?
+
+    --> ESte contiene a todos los elementos los cuales tiene como nombre de clase c2
+
+    2. Modifique el color fondo a todos los elementos que contiene container por el siguiente #009999, haga uso de forEach.
+
+    ¿Qué se mostrará en pantalla?
+    
+    3. Haciendo uso de la propiedad innerHTML agregue lo siguiente <input type='text' placeholder='Escriba su texto'>
+
+    ¿Qué se mostrará en pantalla?
+
+    ¿Cuál es la diferencia entre las propiedas innerText e innerHTML?
+
+Eventos
+
+    Obtenga el elemento que tenga el atributo id="btn-click" y alamcenelo en la variable boton
+    Haciendo uso de la propiedad onclick agregue el evento click de la siguiente forma:
+
+    boton.onclick = function(evt)
+    {
+    alert("Hola mundo");
+    }
+    Obtenga el elemento que tenga el atributo id="btnCopy" y alamcenelo en la variable btnCopy
+    Haciendo uso de la propiedad onclick agregue lo siguiente
+
+    btnCopy.onclick = function(evt)
+    {
+    let msj = document.getElementById('textMsj').value;
+    document.getElementById('showMsj').innerText = msj;
+    }
+
+    ¿Qué es lo que sucedera después de darle click al botón?
+
+    ¿Cuál es la difernecia entre value e innerText? 
