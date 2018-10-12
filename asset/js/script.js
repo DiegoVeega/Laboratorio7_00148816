@@ -8,8 +8,10 @@ container.style.height= '200px';
 
 container.innerHTML= "<input type='text' placeholder='EScriba sdu texto'>"
 
-var containers=document.getElementsByClassName('c2');
+var containers=document.querySelectorAll(".c2");
 
 containers.forEach(element => {
-    element.style.color= '#009999';
+    element.style.backgroundColor= '#009999';
+    element.innerHTML="<input type='text' placeholder='EScriba sdu texto'>"
 });
+

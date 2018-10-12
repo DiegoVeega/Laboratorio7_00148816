@@ -38,12 +38,20 @@ Usando "document.getElementsByClassName"
     2. Modifique el color fondo a todos los elementos que contiene container por el siguiente #009999, haga uso de forEach.
 
     ¿Qué se mostrará en pantalla?
-    
+
+    -->Los elementos que tinen clase c2 son afectados y cambian su coplor de fondo 
+
     3. Haciendo uso de la propiedad innerHTML agregue lo siguiente <input type='text' placeholder='Escriba su texto'>
 
     ¿Qué se mostrará en pantalla?
 
+    --> Los elementos anteriormente modificados en su color de fondo ahora contienen una caja de texto
+
     ¿Cuál es la diferencia entre las propiedas innerText e innerHTML?
+
+    -->Innerhtml: el contenido que va a gregar lo obtiene en formato html
+    innertext: el contenido esta referido a texto, lo ingresado sera mostrado como tal se escribio
+
 
 Eventos
 
